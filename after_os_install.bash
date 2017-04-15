@@ -28,4 +28,7 @@ sudo dpkg --set-selections
 sudo apt update
 sudo apt -y upgrade
 
+### install WiFi tools ###
+sudo apt -y install wireless-tools wpasupplicants
+
 sudo reboot
