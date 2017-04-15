@@ -31,3 +31,6 @@ cd ros_setup_scripts_Ubuntu16.04_server &&
 ./step0.bash		&&
 ./step1.bash		&&
 ./locale.ja.bash
+
+### reboot not to confuse ###
+sudo reboot
