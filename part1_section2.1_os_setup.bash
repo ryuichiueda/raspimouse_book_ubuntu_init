@@ -9,7 +9,7 @@
 tmp=/tmp/$$
 
 ### purge of the cloud-init ###
-sudo apt purge cloud-init
+sudo apt -y purge cloud-init
 
 ### remove the bug on the device tree address ###
 cat /boot/firmware/config.txt                                           |
