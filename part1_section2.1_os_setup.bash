@@ -1,4 +1,10 @@
 #!/bin/bash
+# (c) 2017 Ryuichi Ueda
+# This software is released under the MIT License, see LICENSE.
+
+# usage: This script stabilizes Ubuntu server 16.04 for Raspberry Pi 3
+# at https://wiki.ubuntu.com/ARM/RaspberryPi. This script must be used
+# just after the installation as soon as possible.
 
 tmp=/tmp/$$
 
